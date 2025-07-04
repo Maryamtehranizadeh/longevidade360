@@ -12,7 +12,7 @@ function BookAppointment() {
     console.log(contactMethod);
   }, [contactMethod]);
   return (
-    <div className="flex flex-col my-20 py-12 px-20 w-auto  text-primary rounded-2xl shadow-2xl shadow-primary">
+    <div className="flex flex-col my-20 py-12 px-20 w-auto text-primary rounded-2xl shadow-2xl shadow-primary">
       <h1 className="text-3xl font-bold">{t("Book Your Appointment")}</h1>
       <form action="submit" className="flex flex-col gap-y-2 mt-6">
         <label htmlFor="name">{t("Name")}</label>
