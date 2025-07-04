@@ -11,7 +11,9 @@ function Footer() {
 
   return (
     <footer className=" flex flex-col text-center p-6 bg-primary text-secondary">
-      <p>Copyright © Longevidade360.pt - {t("Created by")} Chiraz.pt</p>
+      <p className="text-center text-sm sm:text-base">
+        Copyright © Longevidade360.pt - {t("Created by")} Chiraz.pt
+      </p>
       {/* <p>Created by Chiraz.pt</p> */}
       <div className="flex flex-row justify-center gap-4 mt-4">
         <Link to="https://www.instagram.com/sellmyglider/">

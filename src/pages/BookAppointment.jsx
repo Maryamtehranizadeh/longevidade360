@@ -12,12 +12,16 @@ function BookAppointment() {
     console.log(contactMethod);
   }, [contactMethod]);
   return (
-    <div className="flex flex-col my-20 py-12 px-20 w-auto text-primary rounded-2xl shadow-2xl shadow-primary">
-      <h1 className="text-3xl font-bold">{t("Book Your Appointment")}</h1>
-      <form action="submit" className="flex flex-col gap-y-2 mt-6">
-        <label htmlFor="name">{t("Name")}</label>
+    <div className="w-full max-w-3xl mx-auto my-12 sm:my-16 px-4 sm:px-6 md:px-12 py-8 sm:py-12  text-primary rounded-2xl shadow-lg shadow-primary/10">
+      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6">
+        {t("Book Your Appointment")}
+      </h1>
+      <form action="submit" className="flex flex-col gap-y-2">
+        <label htmlFor="name" className="text-base sm:text-lg font-semibold">
+          {t("Name")}
+        </label>
         <input type="text" placeholder={t("Name")} name="name" required />
-        <label htmlFor="contact">
+        <label htmlFor="contact" className="text-base sm:text-lg font-semibold">
           {t("You prefer to be contacted by Email or What's App?")}
         </label>
         <select
@@ -46,14 +50,22 @@ function BookAppointment() {
             name="text"
           />
         )}
-        <label htmlFor="language">{t("Your Prefered Language")}</label>
+        <label
+          htmlFor="language"
+          className="text-base sm:text-lg font-semibold"
+        >
+          {t("Your Prefered Language")}
+        </label>
         <select name="language" id="language" required>
           <option>{t("Choose Language")}</option>
           <option value="portuguese">{t("Portuguese")}</option>
           <option value="english">{t("English")}</option>
           <option value="persian">{t("Farsi or Persian")}</option>
         </select>
-        <label htmlFor="explanation">
+        <label
+          htmlFor="explanation"
+          className="text-base sm:text-lg font-semibold"
+        >
           {t(
             "Please explain your health issue and what you would like to achieve with the online appointment."
           )}
