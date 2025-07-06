@@ -14,19 +14,18 @@ function Footer() {
       <p className="text-center text-sm sm:text-base">
         Copyright © Longevidade360.pt - {t("Created by")} Chiraz.pt
       </p>
-      {/* <p>Created by Chiraz.pt</p> */}
       <div className="flex flex-row justify-center gap-4 mt-4">
-        <Link to="https://www.instagram.com/sellmyglider/">
+        <Link to="https://www.instagram.com/longevidade360.pt/">
           <button className={buttonClass}>
             <img src={instagram} alt="facebook" className="w-[30px] h-[30px]" />
           </button>
         </Link>
-        <Link to="https://t.me/sellmyglider">
+        <Link to="https://t.me/longevidade360">
           <button className={buttonClass}>
-            <img src={telegram} alt="facebook" className="w-[30px] h-[30px]" />
+            <img src={telegram} alt="telegram" className="w-[30px] h-[30px]" />
           </button>
         </Link>
-        <Link to="https://www.facebook.com/profile.php?id=61577039763269">
+        <Link to="https://www.facebook.com/profile.php?id=61578272120178">
           <button className={buttonClass}>
             <img src={facebook} alt="facebook" className="w-[30px] h-[30px]" />
           </button>
