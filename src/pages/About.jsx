@@ -2,21 +2,23 @@ import React from "react";
 
 function About() {
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8 text-gray-800 ">
-      <h1 className="text-3xl font-bold mb-6 text-primary">About Us</h1>
-      <p className="mb-4 italic">
+    <div className="max-w-5xl mx-auto p-12 my-20 text-primary shadow-lg shadow-primary rounded-3xl ">
+      <h1 className="text-3xl font-bold mb-6">About Us</h1>
+      <p className="mb-4 italic text-center font-bold">
         The name <strong>Longevidade360</strong> reflects our holistic approach
-        to health — <strong>“Longevidade”</strong> in portuguese language means
+        to health. <strong>“Longevidade”</strong> in portuguese language means{" "}
         <strong>"longevity"</strong>, and <strong>“360”</strong> symbolizes a
-        complete, all-around view of well-being both in quantity and quality of
+        complete, all-around view of well-being, both in quantity and quality of
         life.
       </p>
-
       <p className="mb-4">
         <strong>Longevidade360</strong> was founded with a simple vision: to
-        live longer and healthier. We believe that proactive care, awareness,
-        and healthy choices made in midlife can significantly shape a happier,
-        active and independent elderly stage.
+        live longer and healthier!
+      </p>
+      <p>
+        We believe that proactive care, awareness, and healthy choices made in
+        midlife, can significantly shape a happier, active and independent
+        elderly stage.
       </p>
 
       <p className="mb-4">
@@ -27,16 +29,12 @@ function About() {
         screening, infection prevention, mental balance and habit correction as
         key elements in shaping long-term well-being.
       </p>
-
       <p className="mb-4">
         The platform <strong>Longevidade360</strong>, provides updated longevity
         information, accessible online medical consultations and promoting
-        health education for individuals entering midlife. Dr. Maryam
-        collaborates with other trusted colleagues to deliver personalized and
-        empathetic care.
+        health education for individuals entering midlife.
       </p>
-
-      <p className="mb-4 italic">
+      <p className="mb-4 italic font-bold text-center">
         At <strong>Longevidade360</strong>, we believe that taking care of your
         health in your 40s, 50s and 60s, is one of the best gifts you can give
         to your future self.

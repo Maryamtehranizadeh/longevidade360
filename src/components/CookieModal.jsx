@@ -26,7 +26,8 @@ function CookieModal() {
           🍪 Cookies & Privacy
         </h2>
         <p className="text-primary mb-4 sm:mb-6 text-sm sm:text-base">
-          We use cookies to improve your experience on longevidade360.pt
+          We use cookies to improve your experience on{" "}
+          <strong>longevidade360.pt</strong>
         </p>
         <button onClick={handleAccept}>Accept</button>
       </div>
