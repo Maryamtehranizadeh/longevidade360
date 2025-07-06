@@ -4,6 +4,7 @@ import Router from "./router/Router";
 import Layout from "./layout/Layout";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import defaultOptions from "./config/reactQuery";
+import CookieModal from "./components/CookieModal";
 
 const queryClient = new QueryClient({
   defaultOptions,
@@ -14,8 +15,9 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <BrowserRouter>
         <Layout>
-          <Toaster position="top-right" reverseOrder={true} />
           <Router />
+          <CookieModal />
+          <Toaster position="top-right" reverseOrder={true} />
         </Layout>
       </BrowserRouter>
     </QueryClientProvider>
