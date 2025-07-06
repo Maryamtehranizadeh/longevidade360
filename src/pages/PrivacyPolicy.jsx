@@ -2,14 +2,18 @@ import React from "react";
 
 function PrivacyPolicy() {
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8 text-gray-800">
-      <h1 className="text-3xl font-bold mb-6 text-primary">Privacy Policy</h1>
-      <p className="italic mb-6">Effective Date: July 2025</p>
+    <div className="max-w-5xl mx-auto p-12 my-20 text-primary shadow-lg shadow-primary">
+      <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
+      <p className="italic mb-6">Effective Date: March 2025</p>
 
-      <p className="mb-4">
+      <p className="mb-4 italic text-center">
         This Privacy Policy outlines how <strong>Longevidade360</strong>{" "}
         collects, uses, stores, and protects your personal data when you use our
         services.
+      </p>
+      <p className="mt-8 font-semibold italic text-center">
+        By using our services, you acknowledge that you have read and agreed to
+        this Privacy Policy.
       </p>
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">
@@ -38,8 +42,10 @@ function PrivacyPolicy() {
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">3. Data Retention</h2>
       <p className="mb-4">
-        We do <strong>not</strong> store your medical history, consultation
-        details, or health documents after the consultation ends. Only your
+        We do <strong>not</strong> store your unnecessary medical history,
+        consultation details, or health documents after the consultation ends.
+        Only your main health complaints and the doctor's recommendations are
+        retained for future reference. Your personal information such as your{" "}
         name, email, and WhatsApp number are retained for future communication
         purposes.
       </p>
@@ -94,11 +100,6 @@ function PrivacyPolicy() {
         <li>Email: longevidade360.pt@gmail.com</li>
         <li>Website: longevidade360.pt</li>
       </ul>
-
-      <p className="mt-8 font-semibold">
-        By using our services, you acknowledge that you have read and agreed to
-        this Privacy Policy.
-      </p>
     </div>
   );
 }

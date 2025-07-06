@@ -2,24 +2,20 @@ import React from "react";
 
 function TermsConditions() {
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8 text-gray-800">
-      <h1 className="text-3xl font-bold mb-6 text-primary">
-        Terms and Conditions
-      </h1>
-      <p className="italic mb-6">Effective Date: July 2025</p>
+    <div className="max-w-5xl mx-auto p-12 my-20 text-primary shadow-lg shadow-primary ">
+      <h1 className="text-3xl font-bold mb-6">Terms and Conditions</h1>
+      <p className="italic mb-6">Effective Date: March 2025</p>
 
-      <p className="mb-4">
+      <p className="mb-4 italic text-center">
         Welcome to <strong>Longevidade360</strong>. Please read these Terms and
         Conditions carefully before using our services.
       </p>
-      <p className="mb-4 font-italic">
+      <p className="mb-4 italic text-center">
         By using our website and services, you agree to be bound by these Terms
         and Conditions.
       </p>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">
-        1. Nature of Services
-      </h2>
+      <h2 className="text-2xl font-semibold mt-8 mb-4">Nature of Services</h2>
       <p className="mb-4">
         <strong>Longevidade360</strong> provides{" "}
         <strong>online medical consultations via videocall</strong> for
@@ -57,42 +53,42 @@ function TermsConditions() {
       </p>
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">
-        2. Language of Consultation
+        Language of Consultation
       </h2>
       <p className="mb-4">
         Our services are designed for all the people who speak portuguese;
-        moreover; can be ideal for and those{" "}
+        moreover, can be ideal for those{" "}
         <strong>who cannot speak Portuguese</strong> but can communicate
         effectively in <strong>English or Persian</strong>. Please ensure you
         are comfortable communicating in one of these 3 languages before booking
         a consultation.
       </p>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">
-        3. Prescription Policy
-      </h2>
+      <h2 className="text-2xl font-semibold mt-8 mb-4">Prescription Policy</h2>
       <p className="mb-4">
         We may <strong>prescribe</strong> and support{" "}
-        <strong>continuation of medication</strong> according to SNS regulations
-        in Portugal, for patients who:
+        <strong>continuation of medication</strong>, request{" "}
+        <strong>lab tests</strong>, <strong>imaging </strong>
+        and other <strong>paraclinical evaluations</strong>, according to SNS
+        regulations in Portugal, for patients who:
       </p>
       <ul className="list-disc pl-6 mb-4 space-y-1">
         <li>
-          Have any acute or chronic, non-emergency, general medicine, health
-          issues that require treatment or medication. People with portuguese
-          health number (Nº de utente) will have the prescription confirmation
-          on their SNS application (if the medication exists and supported by
-          SNS).
+          Have any acute or chronic, non-emergency, general medicine health
+          issues that require evaluation, treatment or medication. People with
+          portuguese health number (Nº de utente) will have the prescription
+          confirmation on their SNS application (if the medication exists and
+          supported by SNS).
         </li>
         <li>
           Have <strong>valid prescriptions</strong> from their doctors in their
-          home countries (even if not issued by a Portuguese doctor)
+          home countries (even if not issued by a portuguese doctor).
         </li>
         <li>
-          Are still experiencing signs and symptoms requiring ongoing treatment
+          Are still experiencing signs and symptoms requiring ongoing treatment.
         </li>
       </ul>
-      <p className="mb-4">
+      <p className="mb-4 italic text-center text-primary">
         However, prescription renewal remains at the sole discretion of the
         consulting doctor after assessment. <strong>Longevidade360</strong>{" "}
         reserves the right to decline prescription renewals if it is clinically
@@ -100,7 +96,7 @@ function TermsConditions() {
       </p>
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">
-        4. Not for Emergency Use
+        Not for Emergency Use
       </h2>
       <p className="mb-4">
         <strong>IMPORTANT:</strong> <strong>Longevidade360</strong> is{" "}
@@ -112,7 +108,7 @@ function TermsConditions() {
         </li>
         <li>
           For medical leave certificates or official sick notes, please contact
-          your family doctor (medicina geral e familiar) or{" "}
+          your family doctor (MGF: Medicina Geral e Familiar) or{" "}
           <strong>Saúde 24</strong> at 808 24 24 24.
         </li>
       </ul>
@@ -122,9 +118,7 @@ function TermsConditions() {
         regular follow-up with their local healthcare system.
       </p>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">
-        5. Booking and Payment
-      </h2>
+      <h2 className="text-2xl font-semibold mt-8 mb-4">Booking and Payment</h2>
       <p className="mb-4">
         - Consultations are carried out <strong>via videocall</strong>.<br />-
         After submitting a request through our website, you will receive an{" "}
@@ -145,7 +139,7 @@ function TermsConditions() {
       </p> */}
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">
-        7. User Responsibilities
+        User Responsibilities
       </h2>
       <p className="mb-4">
         By using <strong>Longevidade360</strong> services, you agree to:
@@ -167,7 +161,10 @@ function TermsConditions() {
           Provide a valid ID for identification purposes, if requested by the
           consulting doctor.
         </li>
-        <li>Attend your scheduled videocall on time.</li>
+        <li>
+          Attend your scheduled videocall on time in a quiet place with proper
+          internet connection.
+        </li>
         <li>
           Understand that the consulting doctor may decline treatment or
           referrals if deemed clinically inappropriate.
@@ -180,11 +177,11 @@ function TermsConditions() {
       </ul>
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">
-        8. Limitations of Service
+        Limitations of Service
       </h2>
       <p className="mb-4">
         - Our service is within scope of general medicine in Portugal and not
-        specialty consult substitute. examinations.
+        specialty consultation substitute. examinations.
         <br />
         - We do not provide in-person physical examinations, the consultation is
         carried out through videocall.
@@ -202,7 +199,7 @@ function TermsConditions() {
       </p>
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">
-        9. Privacy and Confidentiality
+        Privacy and Confidentiality
       </h2>
       <p className="mb-4">
         Your personal and medical information will be treated with strict
@@ -213,15 +210,10 @@ function TermsConditions() {
         . We use secure communication channels to arrange consultations and
         process payments.
       </p>
-      <p>
-        We do not share your personal information with third parties, neither
-        store the record of your health information or documents after the
-        consultation is completed. We only keep the record of your name, email,
-        and WhatsApp number for communication purposes.
-      </p>
+      <p>We do not share your personal information with third parties.</p>
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">
-        10. Changes to These Terms
+        Changes to These Terms
       </h2>
       <p className="mb-4">
         <strong>Longevidade360</strong> reserves the right to update these Terms
@@ -229,20 +221,20 @@ function TermsConditions() {
         an updated effective date.
       </p>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">11. Contact</h2>
+      <h2 className="text-2xl font-semibold mt-8 mb-4">Contact</h2>
       <p className="mb-4">
         For any questions or concerns about these Terms and Conditions, please
         contact us at:
       </p>
       <ul className="list-disc pl-6 mb-4 space-y-1">
         <li>Email: longevidade360.pt@gmail.com</li>
-        <li>Website: longevidade360.pt</li>
+        <li>
+          Website:{" "}
+          <a href="/contact-us" className="text-primary underline">
+            longevidade360.pt/contact-us
+          </a>
+        </li>
       </ul>
-
-      <p className="mt-8 font-semibold">
-        By using our service, you acknowledge that you have read, understood,
-        and agree to these Terms and Conditions.
-      </p>
     </div>
   );
 }
