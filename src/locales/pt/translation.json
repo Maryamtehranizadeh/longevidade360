@@ -25,5 +25,69 @@
     "paragraph4": "A fundadora, Dra. Maryam Zadeh (OM: 79967), é médica de clínica geral licenciada em Portugal. Aos 40 anos, ela começou a refletir profundamente sobre a possibilidade de viver mais e melhor, considerando saúde física, alimentação equilibrada, exercícios e treino, equilíbrio de peso, rastreio de cancro, prevenção de infecções, saúde mental e correção de hábitos como elementos-chave para o bem-estar a longo prazo.",
     "paragraph5": "A plataforma Longevidade360 fornece informações atualizadas sobre longevidade, consultas médicas online acessíveis e promove a educação em saúde para pessoas que estão entrando na meia-idade.",
     "paragraph6": "Na Longevidade360, acreditamos que cuidar da sua saúde aos 40, 50 e 60 anos é um dos melhores presentes que você pode dar ao seu futuro."
+  },
+  "privacy": {
+    "title": "Política de Privacidade",
+    "effectiveDate": "Data de Vigência: Março de 2025",
+    "intro": "Esta Política de Privacidade descreve como a Longevidade360 coleta, utiliza, armazena e protege seus dados pessoais quando você utiliza nossos serviços.",
+    "agreement": "Ao utilizar nossos serviços, você reconhece que leu e concorda com esta Política de Privacidade.",
+
+    "section1": {
+      "title": "1. Informações que Coletamos",
+      "item1": "Seu nome e dados de contato (email, número do WhatsApp)",
+      "item2": "Seu número de utente (se aplicável)",
+      "item3": "Informações básicas de saúde que você compartilha voluntariamente durante a consulta",
+      "item4": "Seu endereço IP e informações do navegador (para fins de segurança)"
+    },
+
+    "section2": {
+      "title": "2. Como Utilizamos Suas Informações",
+      "description": "Utilizamos suas informações para:",
+      "item1": "Agendar e realizar consultas por videochamada",
+      "item2": "Emitir prescrições, pedir análises, raio X, etc.",
+      "item3": "Comunicar consigo sobre a sua consulta",
+      "item4": "Cumprir leis e regulamentos médicos aplicáveis"
+    },
+
+    "section3": {
+      "title": "3. Retenção de Dados",
+      "description": "Não armazenamos seu histórico médico desnecessário ou detalhes da consulta após o término da consulta. Apenas suas principais queixas de saúde e as recomendações médicas são mantidas para referência futura. Suas informações pessoais, como nome, email e número do WhatsApp, são mantidas para fins de comunicação futura."
+    },
+
+    "section4": {
+      "title": "4. Compartilhamento de Dados",
+      "description": "Não compartilhamos suas informações pessoais ou médicas com terceiros. Seus dados são tratados de forma confidencial e usados estritamente dentro do escopo do serviço."
+    },
+
+    "section5": {
+      "title": "5. Segurança",
+      "description": "Utilizamos plataformas de comunicação seguras (ex.: WhatsApp, Google Meet, Zoom, email com autenticação em dois fatores) para garantir que os seus dados sejam transmitidos com segurança. Todas as medidas razoáveis são tomadas para proteger suas informações contra acessos não autorizados."
+    },
+
+    "section6": {
+      "title": "6. Seus Direitos",
+      "description": "Você tem o direito de:",
+      "item1": "Acessar as informações pessoais que temos sobre você",
+      "item2": "Solicitar correções de dados incorretos",
+      "item3": "Solicitar a exclusão dos seus dados após o uso do serviço",
+      "item4": "Retirar seu consentimento a qualquer momento (quando aplicável)"
+    },
+
+    "section7": {
+      "title": "7. Cookies",
+      "description": "Nosso site pode usar cookies básicos para melhorar a experiência do usuário e acompanhar estatísticas anônimas de uso. Nenhum dado de saúde é coletado por meio de cookies."
+    },
+
+    "section8": {
+      "title": "8. Atualizações Desta Política",
+      "description": "A Longevidade360 pode atualizar esta Política de Privacidade conforme necessário. Quaisquer alterações serão publicadas nesta página com a data de vigência atualizada."
+    },
+
+    "section9": {
+      "title": "9. Contate-nos",
+      "description": "Se tiver dúvidas ou solicitações sobre seus dados pessoais ou esta Política de Privacidade, entre em contato conosco:",
+      "item1": "Email: longevidade360.pt@gmail.com",
+      "item2": "Website: longevidade360.pt/contact-us"
+    }
   }
 }

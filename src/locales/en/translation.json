@@ -25,5 +25,69 @@
     "paragraph4": "The founder, Dr. Maryam Zadeh (OM: 79967), is a licensed General Practitioner in Portugal. At the age of 40, she began to deeply reflect on the possibility of living longer and better, considering physical health, diet, workout, weight balance, cancer screening, infection prevention, mental balance and habit correction as key elements in shaping long-term well-being.",
     "paragraph5": "The platform Longevidade360 provides updated longevity information, accessible online medical consultations and promotes health education for individuals entering midlife.",
     "paragraph6": "At Longevidade360, we believe that taking care of your health in your 40s, 50s and 60s, is one of the best gifts you can give to your future self."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "effectiveDate": "Effective Date: March 2025",
+    "intro": "This Privacy Policy outlines how Longevidade360 collects, uses, stores, and protects your personal data when you use our services.",
+    "agreement": "By using our services, you acknowledge that you have read and agreed to this Privacy Policy.",
+
+    "section1": {
+      "title": "1. Information We Collect",
+      "item1": "Your name and contact details (email, WhatsApp number)",
+      "item2": "Your health number (Nº de utente), if applicable",
+      "item3": "Basic health-related information you voluntarily share during consultation",
+      "item4": "Your IP address and browser information (for security purposes)"
+    },
+
+    "section2": {
+      "title": "2. How We Use Your Information",
+      "description": "We use your information to:",
+      "item1": "Schedule and conduct videocall consultations",
+      "item2": "Issue prescriptions if appropriate",
+      "item3": "Communicate with you regarding your consultation",
+      "item4": "Comply with applicable laws and medical regulations"
+    },
+
+    "section3": {
+      "title": "3. Data Retention",
+      "description": "We do not store your unnecessary medical history, consultation details, or health documents after the consultation ends. Only your main health complaints and the doctor's recommendations are retained for future reference. Your personal information such as your name, email, and WhatsApp number are retained for future communication purposes."
+    },
+
+    "section4": {
+      "title": "4. Data Sharing",
+      "description": "We do not share your personal or medical information with any third parties. Your data is treated confidentially and used strictly within the scope of the service."
+    },
+
+    "section5": {
+      "title": "5. Security",
+      "description": "We use secure communication platforms (e.g., WhatsApp, Google Meet, Zoom, email with two-factor authentication) to ensure your data is transmitted safely. All reasonable measures are taken to protect your information from unauthorized access."
+    },
+
+    "section6": {
+      "title": "6. Your Rights",
+      "description": "You have the right to:",
+      "item1": "Access the personal information we hold about you",
+      "item2": "Request corrections to inaccurate data",
+      "item3": "Request deletion of your data after service use",
+      "item4": "Withdraw your consent at any time (where applicable)"
+    },
+
+    "section7": {
+      "title": "7. Cookies and Analytics",
+      "description": "Our website may use basic cookies to improve user experience and track anonymous usage statistics. No health data is collected through cookies."
+    },
+
+    "section8": {
+      "title": "8. Updates to This Policy",
+      "description": "Longevidade360 may update this Privacy Policy as needed. Any changes will be posted on this page with the updated effective date."
+    },
+
+    "section9": {
+      "title": "9. Contact Us",
+      "description": "If you have questions or requests regarding your personal data or this Privacy Policy, please contact us:",
+      "item1": "Email: longevidade360.pt@gmail.com",
+      "item2": "Website: longevidade360.pt/contact-us"
+    }
   }
 }

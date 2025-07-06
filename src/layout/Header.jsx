@@ -3,9 +3,14 @@ import { useTranslation } from "react-i18next";
 
 function Header() {
   const { t, i18n } = useTranslation();
+  const handleLanguageChange = (event) => {
+    const selectedLang = event.target.value;
+    i18n.changeLanguage(selectedLang);
+  };
+
   return (
     <header className="bg-primary text-secondary w-full">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-4 md:gap-x-5 items-center justify-between px-4 py-10">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-4 md:gap-x-5 items-baseline justify-between px-4 py-10">
         <div>
           <Link
             to="/"
@@ -29,6 +34,16 @@ function Header() {
             <Link to="/blog">Blog</Link>
           </button>
         </nav>
+        <select
+          name="lang"
+          id="lang"
+          className="bg-primary"
+          onChange={handleLanguageChange}
+          value={i18n.language}
+        >
+          <option value="en"> 🇬🇧 English</option>
+          <option value="pt"> 🇵🇹 Português</option>
+        </select>
       </div>
     </header>
   );
