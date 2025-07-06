@@ -16,5 +16,14 @@
   "Farsi or Persian": "Farsi ou Persa",
   "Please explain your health issue and what you would like to achieve with the online appointment.": "Por favor, explique o seu problema de saúde e o que gostaria de alcançar com a consulta online.",
   "Brief Explanation": "Breve Explicação",
-  "Book Appointment": "Agendar Consulta"
+  "Book Appointment": "Agendar Consulta",
+  "about": {
+    "title": "Sobre Nós",
+    "paragraph1": "O nome Longevidade360 reflete nossa abordagem holística à saúde. “Longevidade” em português vem de \"vida longa\", e “360” simboliza uma visão completa e abrangente do bem-estar, tanto em quantidade quanto em qualidade de vida.",
+    "paragraph2": "A Longevidade360 foi fundada com uma visão simples: viver mais e melhor!",
+    "paragraph3": "Acreditamos que o cuidado proativo, a conscientização e escolhas saudáveis feitas na meia-idade podem moldar significativamente uma fase idosa mais feliz e ativa.",
+    "paragraph4": "A fundadora, Dra. Maryam Zadeh (OM: 79967), é médica de clínica geral licenciada em Portugal. Aos 40 anos, ela começou a refletir profundamente sobre a possibilidade de viver mais e melhor, considerando saúde física, alimentação equilibrada, exercícios e treino, equilíbrio de peso, rastreio de cancro, prevenção de infecções, saúde mental e correção de hábitos como elementos-chave para o bem-estar a longo prazo.",
+    "paragraph5": "A plataforma Longevidade360 fornece informações atualizadas sobre longevidade, consultas médicas online acessíveis e promove a educação em saúde para pessoas que estão entrando na meia-idade.",
+    "paragraph6": "Na Longevidade360, acreditamos que cuidar da sua saúde aos 40, 50 e 60 anos é um dos melhores presentes que você pode dar ao seu futuro."
+  }
 }
