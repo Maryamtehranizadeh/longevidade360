@@ -5,6 +5,8 @@ import HomePage from "../pages/Homepage";
 import BookAppointment from "../pages/BookAppointment";
 import About from "../pages/About";
 import Blog from "../pages/Blog";
+import TermsConditions from "../pages/TermsConditions";
+import PrivacyPolicy from "../pages/PrivacyPolicy";
 function Router() {
   return (
     <Routes>
@@ -13,6 +15,8 @@ function Router() {
       <Route path="/book-your-appointment" element={<BookAppointment />} />
       <Route path="/about" element={<About />} />
       <Route path="/blog" element={<Blog />} />
+      <Route path="/terms-and-conditions" element={<TermsConditions />} />
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
     </Routes>
   );
 }
