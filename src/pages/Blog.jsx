@@ -1,62 +1,34 @@
-import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { healthTopics } from "../utils/healthTopics";
 
 function Blog() {
   const navigate = useNavigate();
-  const [expandedTopic, setExpandedTopic] = useState(null);
 
-  const toggleTopic = (topicId) => {
-    setExpandedTopic(expandedTopic === topicId ? null : topicId);
-  };
-
-  const handleArticleClick = (articleId) => {
-    navigate(`/blog/article/${articleId}`);
+  const handleClick = (topicId) => {
+    navigate(`/blog/topic/${topicId}`);
   };
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold text-primary text-center my-[20px]">
-        Health related articles, click a topic to view articles
+    <div className="max-w-5xl mx-auto px-4 py-8">
+      <h1 className="text-3xl font-bold text-primary text-center mb-4">
+        Health Articles
       </h1>
-      <div className="space-y-2 my-10">
-        {healthTopics.map((topic) => (
-          <div key={topic.id} className="border border-gray-200 rounded-lg">
-            <button
-              onClick={() => toggleTopic(topic.id)}
-              className={`w-full p-4 text-left font-semibold text-lg flex justify-between items-center
-                ${
-                  expandedTopic === topic.id
-                    ? "bg-blue-50 text-blue-800"
-                    : "bg-white hover:bg-gray-50"
-                }`}
-              aria-expanded={expandedTopic === topic.id}
-              aria-controls={`${topic.id}-articles`}
-            >
-              {topic.title}
-              <span className="text-gray-500">
-                {expandedTopic === topic.id ? "▼" : "▶"}
-              </span>
-            </button>
+      <p className="text-center text-primary mb-8">
+        Choose a topic to explore guides and articles
+      </p>
 
-            {expandedTopic === topic.id && (
-              <div
-                id={`${topic.id}-articles`}
-                className="bg-gray-50 p-2 space-y-1"
-                role="region"
-              >
-                {topic.articles.map((article) => (
-                  <button
-                    key={article.id}
-                    onClick={() => handleArticleClick(article.id)}
-                    className="w-full p-3 text-left hover:bg-blue-100 rounded-md transition-colors"
-                  >
-                    {article.title}
-                  </button>
-                ))}
-              </div>
-            )}
-          </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+        {healthTopics.map((topic) => (
+          <button
+            key={topic.id}
+            onClick={() => handleClick(topic.id)}
+            className="block w-full text-left rounded-xl shadow-lg p-6 bg-secondary hover:shadow-3xl hover:bg-secondary hover:scale-110 transition duration-700"
+          >
+            <h2 className="text-xl font-bold text-primary mb-2">
+              {topic.title}
+            </h2>
+            <p className="text-gray text-base">{topic.description}</p>
+          </button>
         ))}
       </div>
     </div>

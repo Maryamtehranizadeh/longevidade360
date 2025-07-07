@@ -12,6 +12,8 @@ module.exports = {
         error: "var(--error)",
         success: "var(--success)",
         border: "var(--border)",
+        gray: "var(--gray)",
+        buttonHover: "var(--button-hover)",
       },
     },
   },

@@ -10,6 +10,7 @@
   --error: tomato;
   --success: green;
   --border: rgb(192, 192, 192);
+  --gray: gray;
   --button-hover: radial-gradient(
       circle at 20% 30%,
       rgba(248, 248, 246, 0.8) 0%,
