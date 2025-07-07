@@ -7,6 +7,7 @@ import About from "../pages/About";
 import Blog from "../pages/Blog";
 import TermsConditions from "../pages/TermsConditions";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
+import BlogTopic from "../pages/BlogTopic";
 function Router() {
   return (
     <Routes>
@@ -17,6 +18,7 @@ function Router() {
       <Route path="/blog" element={<Blog />} />
       <Route path="/terms-and-conditions" element={<TermsConditions />} />
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="/blog/topic/:topicId" element={<BlogTopic />} />
     </Routes>
   );
 }
