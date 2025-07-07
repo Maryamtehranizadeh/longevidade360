@@ -10,7 +10,7 @@ function Header() {
 
   return (
     <header className="bg-primary text-secondary w-full">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-4 md:gap-x-5 items-baseline justify-between px-4 py-10">
+      <div className="items-center max-w-6xl mx-auto flex flex-col  md:flex-row gap-4 md:gap-x-5 md:items-baseline justify-between px-4 py-10">
         <div>
           <Link
             to="/"
@@ -37,7 +37,7 @@ function Header() {
         <select
           name="lang"
           id="lang"
-          className="bg-primary"
+          className="bg-primary border-none text-lg w-[150px]"
           onChange={handleLanguageChange}
           value={i18n.language}
         >

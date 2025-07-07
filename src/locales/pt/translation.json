@@ -1,6 +1,10 @@
 {
-  "Welcome to": "Bem-vindo à",
-  "Your journey to a healthier and longer life": "Sua jornada para uma vida mais saudável e longa",
+  "homepage": {
+    "title_line1": "Para quem tem mais de 40 anos:",
+    "title_line2": "Viva mais e melhor!",
+    "subtitle": "Guias para manter-se jovem, prevenir e tratar doenças, adiar o envelhecimento e prolongar a sua vida!",
+    "consultations": "Consultas médicas online a preço acessível."
+  },
   "Book Your Appointment": "Agende a sua Consulta",
   "About Us": "Sobre Nós",
   "Created by": "Criado por",
