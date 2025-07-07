@@ -8,21 +8,21 @@ function About() {
     <div className="flex flex-col gap-y-4 max-w-5xl mx-auto p-12 my-20 text-primary shadow-lg shadow-primary rounded-3xl">
       <h1 className="text-3xl font-bold mb-6">{t("about.title")}</h1>
 
-      <p className="mb-4 italic text-center font-bold">
+      <p className="text-xl mb-4 italic text-center font-bold">
         {t("about.paragraph1")}
       </p>
 
-      <p className="mb-4 font-bold text-lg italic text-center">
+      <p className=" mb-4 font-bold text-xl italic text-center">
         {t("about.paragraph2")}
       </p>
 
-      <p>{t("about.paragraph3")}</p>
+      <p className="text-lg">{t("about.paragraph3")}</p>
 
-      <p className="mb-4 font-semibold">{t("about.paragraph4")}</p>
+      <p className="text-lg mb-4 font-semibold">{t("about.paragraph4")}</p>
 
-      <p className="mb-4">{t("about.paragraph5")}</p>
+      <p className="text-lg mb-4">{t("about.paragraph5")}</p>
 
-      <p className="mb-4 italic font-bold text-center">
+      <p className="text-lg mb-4 italic font-bold text-center">
         {t("about.paragraph6")}
       </p>
     </div>
