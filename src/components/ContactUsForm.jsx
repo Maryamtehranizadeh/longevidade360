@@ -38,8 +38,11 @@ function ContactUsForm() {
   };
 
   return (
-    <div className="m-6 p-6 w-auto md:w-1/2 lg:w-1/3">
+    <div className="mx-auto my-8 p-6 w-auto max-w-xl">
       <form className="flex flex-col space-y-4" onSubmit={handleSubmit}>
+        <h2 className="text-2xl font-bold mb-4 text-primary">
+          {t("Contact Us")}
+        </h2>
         <input
           type="text"
           placeholder={t("Full Name")}
@@ -64,12 +67,7 @@ function ContactUsForm() {
           rows={6}
           required
         />
-        <button
-          type="submit"
-          className="bg-[var(--primary-color)] text-[var(--secondary-color)] p-2 rounded"
-        >
-          {t("Send")}
-        </button>
+        <button type="submit">{t("Send")}</button>
         {status === "success" && (
           <p className="text-green-600">{t("Message sent successfully")}!</p>
         )}

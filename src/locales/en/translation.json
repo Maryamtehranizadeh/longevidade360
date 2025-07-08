@@ -21,14 +21,20 @@
   "Please explain your health issue and what you would like to achieve with the online appointment.": "Please explain your health issue and what you would like to achieve with the online appointment.",
   "Brief Explanation": "Brief Explanation",
   "Book Appointment": "Book Appointment",
+  "Send": "Send",
+  "Message sent successfully": "Message sent successfully",
+  "Contact Us": "Contact Us",
+  "Full Name": "Full Name",
+  "Something went wrong. Please try again later": "Something went wrong. Please try again later",
+  "Message": "Message",
   "about": {
     "title": "About Us",
-    "paragraph1": "The word “Longevidade” in portuguese language means \"longevity\", which literaly comes from \"Long Life\" and “360” symbolizes a complete, all-around view of well-being, both in quantity and quality of life.",
-    "paragraph2": "Longevidade360's vision is pretty simple: To live longer and healthier!",
+    "paragraph1": "The word “Longevidade” in portuguese and spanish means \"longevity\", which literaly comes from \"Long Life\" and “360” symbolizes a complete, all-around view of well-being, both in quantity and quality of life.",
+    "paragraph2": "Longevidade360's vision: To live longer and healthier!",
     "paragraph3": "We believe that proactive care, awareness, and healthy choices made in midlife, can significantly shape a happier, active and independent elderly stage.",
-    "paragraph4": "The founder, Dr. Maryam Zadeh, is a licensed General Practitioner in Portugal (OM:79967). At the age of 40, she began to deeply reflect on the possibility of living longer and better, considering physical health, diet, workout, weight balance, cancer screening, infection prevention, mental balance and habit correction as key elements in shaping long-term well-being.",
+    "paragraph4": "The founder, <bold>Dr. Maryam Zadeh</bold>, is a licensed General Practitioner in Portugal (OM:79967). At the age of 40, she began to deeply reflect on the possibility of living longer and better, considering physical health, diet, workout, weight balance, cancer screening, infection prevention, mental balance and habit correction as key elements in shaping long-term well-being.",
     "paragraph5": "The platform Longevidade360 provides updated longevity information, accessible online medical consultations and promotes health education for individuals entering midlife.",
-    "paragraph6": "At Longevidade360, we believe that taking care of your health in your 40s, 50s and 60s, is the best present you can give to your future self."
+    "paragraph6": "At Longevidade360, we believe that taking care of your health in your 40s, 50s and 60s, is the best \"PRESENT\" you can give to your \"FUTURE\" self."
   },
   "privacy": {
     "title": "Privacy Policy",
