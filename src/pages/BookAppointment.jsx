@@ -102,6 +102,22 @@ function BookAppointment() {
           <option value="persian">{t("Farsi or Persian")}</option>
         </select>
         <label
+          htmlFor="appointmentDateTime"
+          className="text-base sm:text-lg font-semibold"
+        >
+          {t("Preferred Date and Time")}{" "}
+          <span className="block text-sm text-gray-500 font-normal">
+            {t("Western European Time — Lisbon, London, Dublin")}
+          </span>
+        </label>
+        <input
+          type="datetime-local"
+          id="appointmentDateTime"
+          name="appointmentDateTime"
+          required
+        />
+
+        <label
           htmlFor="explanation"
           className="text-base sm:text-lg font-semibold"
         >
