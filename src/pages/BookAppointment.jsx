@@ -1,12 +1,21 @@
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { availableSlots } from "../utils/availableSlots";
+import "react-datepicker/dist/react-datepicker.css";
+import DatePicker from "react-datepicker";
 
 function BookAppointment() {
+  const [selectedDate, setSelectedDate] = useState("");
+  const [selectedTime, setSelectedTime] = useState("");
   const [formData, setFormData] = useState({});
   const { t, i18n } = useTranslation();
   const [contactMethod, setContactMethod] = useState("");
   const [acceptedPolicy, setAcceptedPolicy] = useState(false);
   const [isHuman, setIsHuman] = useState(false);
+
+  const availableDates = availableSlots.map((slot) => slot.date);
+  const timeOptions =
+    availableSlots.find((slot) => slot.date === selectedDate)?.times || [];
 
   const contactMethodHandler = (e) => {
     // console.log(e.target.value);
@@ -28,6 +37,7 @@ function BookAppointment() {
   };
   const submitHandler = (e) => {
     e.preventDefault();
+    const appointmentDateTime = `${selectedDate}T${selectedTime}`;
     if (!acceptedPolicy) {
       alert("You must accept the privacy policy and terms.");
       return;
@@ -36,8 +46,12 @@ function BookAppointment() {
       alert("Please confirm you're not a robot.");
       return;
     }
+    const fullFormData = {
+      ...formData,
+      appointment: appointmentDateTime,
+    };
 
-    console.log("Form Submitted:", formData);
+    console.log("Form Submitted:", fullFormData);
   };
   useEffect(() => {
     // console.log(contactMethod);
@@ -106,16 +120,39 @@ function BookAppointment() {
           className="text-base sm:text-lg font-semibold"
         >
           {t("Preferred Date and Time")}{" "}
-          <span className="block text-sm text-gray-500 font-normal">
+          <span className="block text-sm text-gray font-normal">
             {t("Western European Time — Lisbon, London, Dublin")}
           </span>
         </label>
-        <input
-          type="datetime-local"
-          id="appointmentDateTime"
-          name="appointmentDateTime"
-          required
+        <DatePicker
+          selected={selectedDate ? new Date(selectedDate) : null}
+          onChange={(date) => {
+            if (date) setSelectedDate(date.toISOString().split("T")[0]);
+            setSelectedTime(""); // reset time when date changes
+          }}
+          includeDates={availableSlots.map((slot) => new Date(slot.date))}
+          placeholderText={t("Select a date")}
+          dateFormat="yyyy-MM-dd"
+          minDate={new Date()}
+          className="w-full"
         />
+        <select
+          id="time"
+          name="time"
+          value={selectedTime}
+          onChange={(e) => setSelectedTime(e.target.value)}
+          required
+          disabled={timeOptions.length === 0}
+        >
+          <option value="" disabled>
+            {t("Choose a time")}
+          </option>
+          {timeOptions.map((time) => (
+            <option key={time} value={time}>
+              {time}
+            </option>
+          ))}
+        </select>
 
         <label
           htmlFor="explanation"
